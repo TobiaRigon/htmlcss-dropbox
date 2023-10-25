@@ -270,6 +270,7 @@ p{
     filter:invert(1);
     padding: 45px;
     width:50%;
+    aspect-ratio: 1/ 1;
 }
 
 .scroll{
@@ -277,10 +278,7 @@ p{
     padding: 20px;
     overflow-y: auto ;
     max-height: 600px;
-
-   
-
-    
+ 
 }
 
 .scroll img{
