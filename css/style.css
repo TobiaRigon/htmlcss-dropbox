@@ -1,0 +1,38 @@
+/* general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul , a{
+    text-decoration: none;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+header a{
+    color: black;
+}
+
+.blu_button a{
+    padding: 4px;
+    color: white;
+    background-color: rgb(48, 133, 229);
+}
