@@ -12,6 +12,7 @@
 
 ul , a{
     text-decoration: none;
+    list-style-type: none;
 }
 
 /* header */
@@ -32,19 +33,20 @@ header a{
 }
 
 .blu_button a{
-    padding: 4px;
+    padding: 10px;
     color: white;
     background-color: rgb(64, 139, 225);
 }
 
 /* main */
 
-.center{
-    width: 80%;
-    margin: auto;
-}
 
 /* jumbo */
+
+.jumbo .center{
+    width: 90%; 
+    margin: auto;
+}
 
 .jumbo{
     padding: 50px;
@@ -87,4 +89,81 @@ header a{
 .fa-arrow-down{
     font-size: 50px;
     margin: 50px auto;
+}
+
+/* Piani */
+
+.piani .center{
+    width: 80%;
+    margin: auto;
+}
+
+main h3{
+    font-size: 35px;
+    margin: 30px auto;
+}
+
+.radio{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.row{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col{
+   
+    border: 1px solid rgb(0, 0, 0);
+    width: calc((100% / 3) - 40px);
+
+    /* debug */
+    
+    min-height:200px;
+}
+
+.tipo_piano{
+    padding:15px;
+    text-align: center;
+    border-bottom:1px solid rgb(0, 0, 0); ;
+}
+
+.info_piani{
+     padding: 20px; 
+}
+
+.info_piani ul li{
+    display: flex;
+}
+
+.buy{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+.info_piani span, .info_piani i, h4, .info_pian div , .info_pian li{
+    margin: 20px;
+}
+
+.info_piani .blu_button{
+    text-align: center;
+    margin: 40px;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.fa-check{
+    color:rgb(64, 139, 225) ;
+}
+
+.single{
+    margin: 40px 0;
+    border:1px solid black;
 }
