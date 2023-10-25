@@ -34,5 +34,50 @@ header a{
 .blu_button a{
     padding: 4px;
     color: white;
-    background-color: rgb(48, 133, 229);
+    background-color: rgb(64, 139, 225);
+}
+
+/* main */
+
+.center{
+    width: 80%;
+    margin: auto;
+}
+
+/* jumbo */
+
+.jumbo{
+    padding: 50px;
+
+
+    background: linear-gradient(
+        to top,
+        rgb(255, 255, 255) 20%,
+        rgb(196, 212, 241) 20% 80%,
+        rgb(196, 212, 241)80%
+      );
+
+    /* background-color: rgb(196, 212, 241); */
+}
+
+.split{
+    display: flex;
+}
+
+.jumbo img{
+    width: 70%;
+}
+
+.jumbo h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.jumbo .button{
+    margin: 30px auto;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
+    margin: 50px auto;
 }
