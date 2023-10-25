@@ -62,10 +62,17 @@ header a{
 
 .split{
     display: flex;
+    flex-wrap: wrap;
+}
+
+.jumbo .container{
+    width: 30%;
 }
 
 .jumbo img{
-    width: 70%;
+    max-width: 70%;
+    min-width: 600px;
+    aspect-ratio: 16/9;  
 }
 
 .jumbo h2{
