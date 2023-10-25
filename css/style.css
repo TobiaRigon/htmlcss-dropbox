@@ -224,27 +224,61 @@ p{
 .team_container{
     padding-top: 40px;
     display: flex;
-    max-height: 600px;
+    
 }
 
 .square{
+    min-width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
     aspect-ratio: 1 / 1;
 }
 
+.square *:nth-child(1) {
+    background: rgb(137, 64, 121);
+}
+
+.square *:nth-child(2) {
+    background: rgb(155, 225, 166);
+}
+
+.square *:nth-child(3) {
+    background: rgb(220, 143, 0);
+}
+
+.square *:nth-child(4) {
+    background: rgb(0, 255, 247);
+}
+
+.square_due *:nth-child(1) {
+    background: rgb(0, 255, 234);
+}
+
+.square_due *:nth-child(2) {
+    background: rgb(82, 67, 7);
+}
+
+.square_due *:nth-child(3) {
+    background: rgb(255, 223, 93);
+}
+
+.square_due *:nth-child(4) {
+    background: rgb(64, 64, 231);
+}
+
 .square *{
+    filter:invert(1);
     padding: 45px;
     width:50%;
 }
 
 .scroll{
-    max-width: 30%;
-    padding: 10px;
+    
+    padding: 20px;
     overflow-y: auto ;
+    max-height: 600px;
 
-
-    /* debug */
+   
 
     
 }
