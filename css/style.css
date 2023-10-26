@@ -303,5 +303,22 @@ p{
 }
 
 .cta_bg{
+    
     background-color:rgb(196, 212, 241);
 }
+
+/* faq */
+
+.faq .center h3{
+    padding: 60px 0;
+    border-bottom: 1px solid black;
+}
+
+.quest_container{
+    display:flex;
+    justify-content: space-between;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+    padding: 70px 0;
+}
+
