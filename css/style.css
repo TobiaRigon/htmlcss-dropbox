@@ -46,6 +46,7 @@ header a{
 .button{
     padding: 15px;
     display: inline-block;
+    cursor: pointer;
 }
 
 .blu_button {
@@ -178,6 +179,7 @@ h4{
 .info_piani .blu_button{
     text-align: center;
     margin: 40px;
+
 }
 
 .price{
@@ -309,7 +311,8 @@ p{
 
 /* faq */
 
-.faq .center h3{
+.faq .center h4{
+    font-size: 35px;
     padding: 60px 0;
     border-bottom: 1px solid black;
 }
@@ -317,7 +320,6 @@ p{
 .quest_container{
     display:flex;
     justify-content: space-between;
-    /* border-top: 1px solid black; */
     border-bottom: 1px solid black;
     padding: 70px 0;
 }
