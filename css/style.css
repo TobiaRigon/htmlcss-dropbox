@@ -58,6 +58,7 @@ header a{
 
 .w_button{
     border: 1px solid black;
+    background-color: white;
 }
 
 /* main */
@@ -81,7 +82,7 @@ background: linear-gradient(
     rgb(196, 212, 241)80%
     );
 
-/* background-color: rgb(196, 212, 241); */
+
 }
 
 .jumbo .button{
@@ -221,6 +222,8 @@ p{
 
 /* team */
 
+
+
 .team_container{
     padding-top: 40px;
     display: flex;
@@ -270,6 +273,7 @@ p{
     filter:invert(1);
     padding: 45px;
     width:50%;
+    height: 50%;
     aspect-ratio: 1/ 1;
 }
 
@@ -283,4 +287,21 @@ p{
 
 .scroll img{
     width: 60%;
+}
+
+
+.cta {
+    width:30%;
+    color: rgb(128, 32, 46);
+}
+
+.cta_container{
+    display: flex;
+    justify-content: space-around;
+    padding:100px;
+    align-items: center;
+}
+
+.cta_bg{
+    background-color:rgb(196, 212, 241);
 }
