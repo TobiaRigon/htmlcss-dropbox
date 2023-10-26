@@ -43,6 +43,10 @@ header a{
 
 /* buttons */
 
+a{
+    cursor: pointer;   
+}
+
 .button{
     padding: 15px;
     display: inline-block;
@@ -322,5 +326,34 @@ p{
     justify-content: space-between;
     border-bottom: 1px solid black;
     padding: 70px 0;
+}
+
+/* footer */
+
+
+
+footer ul li:first-child{
+    margin:20px 0;
+    font-weight: 800;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.footer_nav{
+    display: flex;
+    justify-content: space-between;
+    padding:50px 0;
+}
+
+.line
+{
+    height: 30px;
+    width: 180px;
+    border-bottom:1px solid white ;
+    margin-bottom: 50px;
 }
 
